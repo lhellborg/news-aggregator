@@ -78,8 +78,9 @@ APP.Main = (function() {
 
 
     // Colorize on complete.
-    if (storyLoadCount === 0)
-      colorizeAndScaleStories();
+    //if (storyLoadCount === 0)
+     // colorizeAndScaleStories();
+     requestAnimationFrame(onStoryData);
   }
 
   function onStoryClick(details) {
